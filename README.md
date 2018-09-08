@@ -5,5 +5,5 @@
 
 Each `class` and/or `struct` in the compound object `ApiResponse` needs to comply with the `Content` protocol. The `Content` protocol includes the `Codable` protocol for JSON decoding and encoding. 
 
-The post has be check with the [RESTed](https://itunes.apple.com/us/app/rested-simple-http-requests/id421879749) macOS application using the file ["Dish.request"](Dish.request).
+The `POST` was checked with the [RESTed](https://itunes.apple.com/us/app/rested-simple-http-requests/id421879749) macOS application using the file ["Dish.request"](Dish.request).
 
