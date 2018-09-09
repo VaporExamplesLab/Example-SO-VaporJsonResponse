@@ -31,3 +31,13 @@ struct ApiResponse: Content {
         self.dishes = dishes
     }
 }
+
+struct ApiResponseGeneric<T> : Content where T: Content { 
+    var links: Links?
+    var data: T
+    
+    init(links: Links, data: T) {
+        self.links = links
+        self.data = data
+    }
+}
