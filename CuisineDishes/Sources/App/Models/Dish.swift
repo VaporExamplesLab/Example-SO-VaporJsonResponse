@@ -1,5 +1,7 @@
 import Vapor
 
+// :NYI: add `Model` protocol
+
 struct Dish: Content {
     var id: Int?
     var title: String
